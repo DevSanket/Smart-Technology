@@ -12,11 +12,11 @@ export default function ProjectWork() {
         
         <section className='grid grid-cols-1 md:grid-cols-2 gap-5'>
             <DivisionCard  icon={faPenRuler} title='Mould Design & Manufacturing' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
-            <DivisionCard  icon={faCompassDrafting} title='Die Design & Manufacturing' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
-            <DivisionCard  icon={faToolbox} title='Tool & Die Making' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
-            <DivisionCard  icon={faGear} title='Jig & Fixture Design & Manufacturing' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
-            <DivisionCard  icon={faWrench} title='Manufacturing Of SPM Machines Design and Development' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
-            <DivisionCard  icon={faHardDrive} title='Precise Work Machining & Surface Grinding' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FD7070' />
+            <DivisionCard  icon={faCompassDrafting} title='Die Design & Manufacturing' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#33FFE7' />
+            <DivisionCard  icon={faToolbox} title='Tool & Die Making' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#CFA9CE' />
+            <DivisionCard  icon={faGear} title='Jig & Fixture Design & Manufacturing' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#6FE2F9' />
+            <DivisionCard  icon={faWrench} title='Manufacturing Of SPM Machines Design and Development' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#FB4040' />
+            <DivisionCard  icon={faHardDrive} title='Precise Work Machining & Surface Grinding' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam expedita repellendus, suscipit porro aspernatur id quae amet dignissimos. Magnam?' color='#9AE15F' />
             
         </section>
         </div>

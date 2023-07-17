@@ -5,6 +5,8 @@ import InforContainer from '@/components/Home/InfoContainer'
 import OurMission from '@/components/Home/OurMission'
 import OurMachines from '@/components/Home/OurMachines'
 import ProjectWork from '@/components/Home/ProjectWork'
+import OurClient from '@/components/Home/OurClients'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,8 +21,10 @@ export default function Home() {
     <OurMission />
     <OurMachines />
     <ProjectWork />
+    <OurClient />
      
      </div>
+     <Footer />
     </main>
   )
 }
