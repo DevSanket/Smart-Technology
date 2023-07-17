@@ -10,7 +10,7 @@ export default function OurMission() {
         <p className='font-bold text-5xl text-center uppercase'>Mission Statement</p>
         
        
-       <div className='grid grid-cols-4 gap-5 '>
+       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 '>
            <MissionCard icon={faScrewdriverWrench} title="Development"  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur." />
            <MissionCard icon={faPaintBrush} title="Design"  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur." />
            <MissionCard icon={faIndustry} title="Manufacturing"  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur." />
