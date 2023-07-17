@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 import Router, { useRouter } from "next/router";
 import $ from "jquery";
 import React, { useContext, useEffect, useState } from "react";
-import MobileSideBar from './MobileSideBar';
+import MobileSideBar from "./MobileSideBar";
 
 export default function Header() {
   const [sideBar, setSidebar] = useState("");
@@ -29,44 +29,39 @@ export default function Header() {
         <nav className="py-5 px-10 relative max-w-[1200px] mx-auto">
           <div className="container mx-auto flex items-center justify-between">
             {/* Logo */}
-            <div className='lg:block sm:hidden'>
-              <Link href={"/"} className='flex items-center gap-2 '>
+            <div className="lg:block sm:hidden">
+              <Link href={"/"} className="flex items-center gap-2 ">
                 <img
                   src="/assets/logo.jpg"
                   alt="live decor logo"
                   className="h-[50px] w-auto"
                 />
-                 <p className='text-[24px]'>Smart Technology</p>
+                <p className="text-[24px]">Smart Technology</p>
               </Link>
-             
             </div>
             {/* Menus  */}
             <div className="md:block sm:hidden">
-            <ul className="flex items-center justify-center space-x-10">
-                <li>
-                    Project Work Division
-                </li>
-                <li>
-                    Machine 
-                </li>
-                </ul>
+              <ul className="flex items-center justify-center space-x-10">
+                <li>Workers</li>
+                <li>Team</li>
+                <li>Contact us</li>
+              </ul>
             </div>
-            </div>
-         
+          </div>
         </nav>
-        </header>
+      </header>
 
-        <header className="w-full fixed z-50 sm:block md:block tablet:hidden bg-white shadow-lg">
+      <header className="w-full fixed z-50 sm:block md:block tablet:hidden bg-white shadow-lg">
         <nav className="grid grid-cols-1">
           <div className="md:container py-4 md:px-0 sm:px-3">
             <div className="flex items-center justify-between">
-              <Link href={"/"} className='flex items-center gap-2'>
+              <Link href={"/"} className="flex items-center gap-2">
                 <img
                   src="/assets/logo.jpg"
                   alt="live decor logo"
                   className="md:h-[50px] sm:h-[40px] w-auto"
                 />
-                 <p className='text-[14px]'>Smart Technology</p>
+                <p className="text-[14px]">Smart Technology</p>
               </Link>
 
               {/* <button
@@ -101,5 +96,5 @@ export default function Header() {
       </header>
       <MobileSideBar state={sideBar} />
     </React.Fragment>
-  )
+  );
 }

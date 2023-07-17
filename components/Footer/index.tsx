@@ -7,7 +7,7 @@ export default function Footer() {
       
     <footer className="bg-black bg-cover bg-center md:bg-[url('/assets/footer-bg.png')]  sm:bg-[url('/assets/footer-bg-mobile.png')]">
       <div className="container tablet:py-20 sm:p-10 max-w-[1200px]">
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
+        <div className="grid md:grid-cols-3  grid-cols-1 gap-10">
         <figure className="flex flex-col space-y-5">
               <Link href={"/"} className='flex items-center space-x-5'>
                 <img
