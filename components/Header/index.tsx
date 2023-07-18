@@ -42,9 +42,15 @@ export default function Header() {
             {/* Menus  */}
             <div className="md:block sm:hidden">
               <ul className="flex items-center justify-center space-x-10">
-                <li>Workers</li>
-                <li>Team</li>
-                <li>Contact us</li>
+                <li>
+                  <Link href={"/"}>Home</Link>
+                </li>
+                <li>
+                  <Link href={"/work"}>Work</Link>
+                </li>
+                <li>
+                  <Link href={"/about"}>About</Link>
+                </li>
               </ul>
             </div>
           </div>

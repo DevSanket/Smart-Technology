@@ -18,21 +18,15 @@ export default function MobileSideBar({ state }: IProps) {
         <div className="p-7">
           <ul className="flex flex-col justify-center">
             <li className="sidebar-tab">
-              <Link href={"#"}>
-                  Workers
-              </Link>
+              <Link href={"/"}>Home</Link>
             </li>
-            <hr/>
+            <hr />
             <li className="sidebar-tab">
-              <Link href={"#"}>
-                  Team
-              </Link>
+              <Link href={"/work"}>Work</Link>
             </li>
-            <hr/>
+            <hr />
             <li className="sidebar-tab">
-              <Link href={"#"}>
-                  Contact Us
-              </Link>
+              <Link href={"/about"}>About</Link>
             </li>
           </ul>
         </div>
