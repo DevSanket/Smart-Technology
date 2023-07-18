@@ -20,22 +20,22 @@ export default function OurMission() {
           <MissionCard
             icon={faScrewdriverWrench}
             title="Development"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur."
+            description="Our dedication to continuous development empowers us to evolve, adapt, and excel in a rapidly changing world."
           />
           <MissionCard
             icon={faPaintBrush}
             title="Design"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur."
+            description="Design is the essence of our creations, where creativity and aesthetics harmoniously merge to inspire extraordinary experiences."
           />
           <MissionCard
             icon={faIndustry}
             title="Manufacturing"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur."
+            description="Through meticulous craftsmanship and state-of-the-art processes, our manufacturing endeavors yield exceptional quality and precision in every product."
           />
           <MissionCard
             icon={faCheckCircle}
             title="Quality"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quidem aperiam fuga impedit et accusamus consectetur repellat, sequi eum consequatur."
+            description="Quality is ingrained in our DNA, driving us to uphold unwavering standards, exceed expectations, and deliver unparalleled excellence."
           />
         </div>
 
