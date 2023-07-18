@@ -26,6 +26,14 @@ export default function MobileSideBar({ state }: IProps) {
             </li>
             <hr />
             <li className="sidebar-tab">
+              <Link href={"/clients"}>Clients</Link>
+            </li>
+            <hr />
+            <li className="sidebar-tab">
+              <Link href={"/machines"}>Machines</Link>
+            </li>
+            <hr />
+            <li className="sidebar-tab">
               <Link href={"/about"}>About</Link>
             </li>
           </ul>

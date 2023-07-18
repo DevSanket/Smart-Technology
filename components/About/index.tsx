@@ -1,4 +1,5 @@
 import React from "react";
+import TeamCard from "./TeamCard";
 
 export default function AboutIntro() {
   return (
@@ -23,44 +24,30 @@ export default function AboutIntro() {
         <p className="text-4xl uppercase font-bold my-[100px]" id="#team">
           PERSONAL DETAILS
         </p>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-y-10">
-          <div className="flex-col items-center">
-            <img
-              src="/assets/clients/user.jpg"
-              className="mx-auto h-[100px] w-auto"
-            />
-            <p className="text-xl font-bold">NITIN S BARDESKAR</p>
-            <p className="text-lg uppercase">
-              <b>EDUCATION</b> - Diploma in tool and die makers
-            </p>
-            <p className="text-lg">
-              <b>AGE</b> - 36
-            </p>
-            <p className="font-bold">WORK EXP :- </p>
-            <p className="text-lg">
-              SHAPER INDIA PVT,LTD (MNC) ( 9 YEAR EXPERIENCE )
-            </p>
-            <p>GLOTECH MOLD INDIA PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)</p>
-          </div>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
+          <TeamCard
+          name="NITIN S BARDESKAR"
+          edu="Diploma in tool and die makers"
+          age={36}
+          src="/assets/clients/user.jpg"
+          exp={[
+            "SHAPER INDIA PVT,LTD (MNC) ( 9 YEAR EXPERIENCE )",
+            "GLOTECH MOLD INDIA PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)"
+          ]}
+          />
 
-          <div className="flex-col items-center">
-            <img
-              src="/assets/clients/user.jpg"
-              className="mx-auto h-[100px] w-auto"
-            />
-            <p className="text-xl font-bold">MANOJ G BHALERAO</p>
-            <p className="text-lg uppercase">
-              <b>EDUCATION</b> - BE machicnical
-            </p>
-            <p className="text-lg">
-              <b>AGE</b> - 31
-            </p>
-            <p className="font-bold">WORK EXP :- </p>
-            <p className="text-lg">
-              SHAPER INDIA PVT,LTD (MNC) ( 2 YEAR EXPERIENCE )
-            </p>
-            <p>SM AUTO PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)</p>
-          </div>
+          <TeamCard
+          name="MANOJ G BHALERAO"
+          edu="BE machicnical"
+          age={31}
+          src="/assets/clients/user.jpg"
+          exp={[
+            "SHAPER INDIA PVT,LTD (MNC) ( 2 YEAR EXPERIENCE )",
+            "SM AUTO PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)"
+          ]}
+          />
+
+        
         </div>
       </div>
     </React.Fragment>

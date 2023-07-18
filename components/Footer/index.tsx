@@ -43,7 +43,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href={"/#clients"}
+                    href={"/clients"}
                     className="text-base text-white hover:text-ascent-1"
                   >
                     Clients
@@ -51,10 +51,10 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href={"/about#team"}
+                    href={"/machines"}
                     className="text-base text-white hover:text-ascent-1"
                   >
-                    Team
+                    Machines
                   </Link>
                 </li>
                 <li>
@@ -73,7 +73,7 @@ export default function Footer() {
               <ul className="flex flex-col space-y-3">
                 <li>
                   <Link
-                    href={"/about"}
+                    href={"/contact"}
                     className="text-base text-white hover:text-ascent-1"
                   >
                     Contact us
