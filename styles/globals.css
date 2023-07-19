@@ -44,8 +44,12 @@
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+  
 }
 
+body{
+  background: rgb(241, 240, 240);
+}
 
 
 .sidebar {
@@ -64,4 +68,49 @@
 .sidebar.active {
   margin-left: 0%;
   transition: 0.3s ease;
+}
+
+
+.animation-custom {
+  animation: transitionIn 2.5s forwards;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.animationLeftRight {
+  animation: transitionLeftTORight 1.5s forwards;
+}
+
+@keyframes transitionLeftTORight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes transitionRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }

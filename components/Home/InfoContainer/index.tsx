@@ -1,23 +1,29 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 export default function InforContainer() {
   return (
-    <div className='w-full py-[200px]  flex  items-center justify-center text-center'>
-       
-       <div className='flex-col space-y-5'>
-        {/* <img src='/assets/logo.jpg' height={200} width={200} /> */}
-        <p className='font-bold text-5xl'>Welcome to Smart Technology</p>
-        <p>SMART TECHNOLOGY is a brand-new tooling solution, covering most accepts of 
-work in the area of Mechanical engineering ranging from SPM Manufacturing, Tool & Die 
-Design, to CAD design and mould design, all in one place! 
- Our success is based on the continuous commitment that SMART Technology gives to 
-all our clients by being up-to-date with the latest processes, and importantly, in this time of 
-rising costs – competitive pricing structure. 
-Our consistency of work quality, experienced mechanical engineers, reliable service, and 
-preventative maintenance have also contributed towards our success.</p>
-       </div>
-      
+    <div className="w-full md:py-[150px] py-[100px]  flex  items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="flex-col space-y-5 items-center justify-center animation-custom">
+          {/* <img src='/assets/logo.jpg' height={200} width={200} /> */}
+          <p className="font-bold text-3xl uppercase">
+            Welcome to Smart Technology
+          </p>
+          <p>
+            Comprehensive, one-stop mechanical engineering solution. SPM
+            Manufacturing, Tool & Die Design, CAD design, and mould design.
+            Competitive pricing, quality work, experienced engineers, reliable
+            service, and preventive maintenance drive our success.
+          </p>
+        </div>
+        <div className="flex justify-center animation-custom">
+          <img
+            src="/assets/StartImg.png"
+            className="md:h-[300px] h-auto mt-0"
+          />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
