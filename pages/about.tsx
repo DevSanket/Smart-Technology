@@ -7,7 +7,7 @@ export default function About() {
   return (
     <main className="w-full h-full ">
       <Header />
-      <div className="max-w-[1200px] mx-auto  px-5 md:px-0">
+      <div className="max-w-[1200px] mx-auto  px-5 lg:px-0">
         <AboutIntro />
       </div>
       <Footer />

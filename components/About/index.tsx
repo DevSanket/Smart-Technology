@@ -24,30 +24,28 @@ export default function AboutIntro() {
         <p className="text-4xl uppercase font-bold my-[100px]" id="#team">
           PERSONAL DETAILS
         </p>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           <TeamCard
-          name="NITIN S BARDESKAR"
-          edu="Diploma in tool and die makers"
-          age={36}
-          src="/assets/clients/user.jpg"
-          exp={[
-            "SHAPER INDIA PVT,LTD (MNC) ( 9 YEAR EXPERIENCE )",
-            "GLOTECH MOLD INDIA PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)"
-          ]}
+            name="NITIN S BARDESKAR"
+            edu="Diploma in tool and die makers"
+            age={36}
+            src="/assets/clients/user.jpg"
+            exp={[
+              "SHAPER INDIA PVT,LTD (MNC) ( 9 YEAR EXPERIENCE )",
+              "GLOTECH MOLD INDIA PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)",
+            ]}
           />
 
           <TeamCard
-          name="MANOJ G BHALERAO"
-          edu="BE machicnical"
-          age={31}
-          src="/assets/clients/user.jpg"
-          exp={[
-            "SHAPER INDIA PVT,LTD (MNC) ( 2 YEAR EXPERIENCE )",
-            "SM AUTO PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)"
-          ]}
+            name="MANOJ G BHALERAO"
+            edu="BE machicnical"
+            age={31}
+            src="/assets/clients/user.jpg"
+            exp={[
+              "SHAPER INDIA PVT,LTD (MNC) ( 2 YEAR EXPERIENCE )",
+              "SM AUTO PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)",
+            ]}
           />
-
-        
         </div>
       </div>
     </React.Fragment>
