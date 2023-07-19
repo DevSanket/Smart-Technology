@@ -10,9 +10,7 @@ export default function Instrument() {
             Instrument Details
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            ipsum expedita id tempore quaerat aliquid et aspernatur pariatur non
-            eligendi?
+          Our cutting-edge instruments are meticulously engineered, delivering precise measurements and unparalleled performance, empowering you with accurate and reliable data.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-y-5 py-5">

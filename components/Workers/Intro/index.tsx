@@ -10,9 +10,7 @@ export default function Intro() {
             Worker Details
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            ipsum expedita id tempore quaerat aliquid et aspernatur pariatur non
-            eligendi?
+          Our dedicated team of skilled professionals brings expertise, passion, and commitment to every project, ensuring exceptional results and client satisfaction.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-y-5">
