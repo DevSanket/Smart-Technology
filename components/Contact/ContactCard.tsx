@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactCard() {
   return (
-    <div className='shadow-sm p-10  bg-gray-100 rounded-md'>
+    <div className='shadow-sm p-10  bg-white rounded-md'>
         <p className='font-bold text-center text-2xl'>Lets Have a Conversation</p>
         <form className='flex-col space-y-5'>
         <div className='grid grid-cols-1 md:grid-cols-2 md:gap-5 gap-0 mt-5'>
