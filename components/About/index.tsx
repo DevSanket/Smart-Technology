@@ -25,7 +25,7 @@ export default function AboutIntro() {
           PERSONAL DETAILS
         </p>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
-          <TeamCard
+          {/* <TeamCard
             name="NITIN S BARDESKAR"
             edu="Diploma in tool and die makers"
             age={36}
@@ -34,7 +34,7 @@ export default function AboutIntro() {
               "SHAPER INDIA PVT,LTD (MNC) ( 9 YEAR EXPERIENCE )",
               "GLOTECH MOLD INDIA PVT,LTD ( MNC ) (1.5 YEARS EXPERIENCE)",
             ]}
-          />
+          /> */}
 
           <TeamCard
             name="MANOJ G BHALERAO"
